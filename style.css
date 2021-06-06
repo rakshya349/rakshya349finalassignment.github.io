@@ -1,0 +1,156 @@
+
+
+body {
+margin: 0px auto;
+width:100%;
+}
+
+
+.container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+      img {
+        max-width: 100%;
+      }
+      .image {
+        flex-basis: 60%;
+
+      }
+      .text {
+        font-size: 20px;
+        padding-left: 20px;
+      }
+
+
+h2 {
+font-style: oblique;
+}
+ h6{
+font-style: oblique;
+}
+
+
+#container {
+width:90%;
+height:auto;
+background-color:#ffffff;
+padding: 10px;
+margin: 0 auto;
+}
+
+.jumbotron
+{
+background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,103,121,1) 39%, rgba(0,212,255,1) 100%);
+height:200px;
+color:#fff;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #07475f;
+margin-bottom:5px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #fff;
+  color: black;
+text-decoration:none;
+}
+
+.topnav a.active {
+  background-color: #096c7f;
+  color: white;
+}
+
+.row{
+margin-bottom:50px;
+}
+.col-sm-4
+{
+box-shadow: 10px 5px 5px #d2d4d2;
+
+}
+
+.col-sm-6
+{
+box-shadow: 10px 5px 5px #d2d4d2;
+}
+
+.col-sm-12
+{
+box-shadow: 10px 5px 5px #d2d4d2;
+
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #096c7f;
+   color: white;
+   text-align: center;
+padding:10px
+}
+
+.box {
+display:inline-block;
+width:100%;
+}
+.box_left {
+display:inline-block;
+float:left;
+width:32%;
+height:auto;
+border-right: 1px solid #d2d2d2;
+padding:10px;
+}
+
+.box_right {
+display:inline-block;
+float:left;
+width:32%;
+height:auto;
+padding:5px;
+}
+.col-100 {
+float: left;
+width: 100%;
+margin-top:6px;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, .col-100, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
